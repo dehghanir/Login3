@@ -75,7 +75,7 @@
             android:accessibilityLiveRegion="none"
             android:adjustViewBounds="true"
             android:scaleType="fitXY"
-            app:srcCompat="@mipmap/e" />
+            app:srcCompat="@mipmap/c" />
 
         <ImageView
             android:id="@+id/hart_white"
