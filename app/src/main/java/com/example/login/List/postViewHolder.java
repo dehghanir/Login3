@@ -13,6 +13,7 @@ public class postViewHolder extends RecyclerView.ViewHolder {
     ImageView hartwhite;
     ImageView btnlike;
     TextView txtlike;
+    ImageView mainImage;
 
 
     public postViewHolder(View itemView) {
@@ -21,6 +22,7 @@ public class postViewHolder extends RecyclerView.ViewHolder {
         hartwhite = itemView.findViewById(R.id.hart_white);
         btnlike = itemView.findViewById(R.id.btn_like);
         txtlike = itemView.findViewById(R.id.txt_like);
+        mainImage = itemView.findViewById(R.id.mainImage);
 
 
         btnlike.setOnClickListener(new View.OnClickListener() {
@@ -30,6 +32,7 @@ public class postViewHolder extends RecyclerView.ViewHolder {
                 hartwhite.setVisibility(view.VISIBLE);
                 btnlike.setImageResource(R.mipmap.liked_heart);
                 txtlike.setText("849 Likes");
+
 
                 Handler h = new Handler();
                 h.postDelayed(new Runnable() {

@@ -69,13 +69,13 @@
 
 
         <ImageView
-            android:id="@+id/ImagePost"
+            android:id="@+id/mainImage"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:accessibilityLiveRegion="none"
             android:adjustViewBounds="true"
             android:scaleType="fitXY"
-            app:srcCompat="@mipmap/c" />
+            app:srcCompat="@mipmap/b" />
 
         <ImageView
             android:id="@+id/hart_white"

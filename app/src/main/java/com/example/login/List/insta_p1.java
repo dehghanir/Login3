@@ -1,4 +1,4 @@
-package com.example.login;
+package com.example.login.List;
 
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.example.login.R;
 
 import java.sql.Time;
 import java.util.Timer;
