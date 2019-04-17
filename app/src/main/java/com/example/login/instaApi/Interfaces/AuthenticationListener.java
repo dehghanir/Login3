@@ -1,4 +1,6 @@
 package com.example.login.instaApi.Interfaces;
 
-public class AuthenticationListener {
+public interface AuthenticationListener {
+
+    void onCodeReceived(String auth_token);
 }
